@@ -1,0 +1,94 @@
+Project NBA {
+  database_type: 'PostgreSQL'
+  Note: ```
+  # NBA Player and Team Game Stats, 2019-2022
+  **Database created for DS 6001 July 2024**
+  ```
+}
+Table users as U {
+  id int [pk, increment]
+  full_name varchar
+  created_at timestamp
+  country_code int
+  note: "table 'users' contains user information"
+}
+Table merchants {
+  id int [pk]
+  merchant_name varchar
+  country_code int [note: "country of merchant"]
+  admin_id int [ref: > U.id]
+  created_at datetime [default: `now()`, note: "created_time"]
+  }
+Table players as P {
+    player_id varchar
+    player varchar
+    note: "table 'player_id' only contains player names for now."
+}
+Table games as G {
+    game_id varchar
+    game_date varchar
+    ot int
+    season int
+    note: "table 'games' contains information about games that isn't tied to a player or team."
+}
+
+> many-to-one
+< one-to-many
+<> many-to-many
+- one-to-one
+
+X and Y are tables:
+"One X goes with (A) Y"
+"One Y goes with (B) X"
+then the relationship is A to B
+
+One game goes with many players in the game
+One row in player_game matches to One row in the game table
+
+Many to one
+
+Ref: G.game_id < PG.game_id
+Ref: P.player_id < PG.player_id
+Ref: G.game_id < TG.game_id
+Ref: PG.game_id < TG.game_id
+Ref: PG.team_abbrev > TG.team_abbrev
+Ref: TG.team_abbrev - TG.opponent_abbrev
+
+
+
+
+Table team_game as TG {
+    game_id varchar
+    team_abbrev varchar
+    h_a varcharteam_score int
+    team_score int
+    team_pace float
+    team_efg_pct float
+    team_tov_pct float
+    team_orb_pct float
+    team_ft_rate float
+    team_off_rtg float
+    opponent_abbrev varchar
+    note: "table 'team_game' contains team statistitc for each game. 
+    Note: to get win/loss join this table with itself on opponent_abbrev"
+}
+
+Table player_game as PG {
+    game_id varchar [pk]
+    player_id varchar [pk]
+    starter intmp varchar
+    fg int
+    fga int
+    fg_pct float
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+
+}
