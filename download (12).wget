@@ -1,0 +1,309 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NCY8YQ83W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1NCY8YQ83W');
+</script>
+<title> Open Source Shakespeare: search Shakespeare's works, read the texts :|: Open Source Shakespeare &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/styles/oss-main.css" rel="stylesheet" type="text/css">
+
+<script type='text/javascript' src='/inc/help.js'></script></head>
+<body style="background-color: #FEF3DE; background-image:url('/images/parchment4.jpg'); margin: 10px;">
+<div id='pagebody'>
+<!-- begin container -->
+
+<div id='container' style='background-color: #FEF3DE; border: 1px solid black; z-index: 100; position: absolute; width: 760; margin-bottom: 10px;'>
+
+<div align='left' class='header'>
+		<table style='background-image: url(/images/oss_new_logo.png); background-repeat: no-repeat;' height='50' cellpadding='0' cellspacing='0' border='0' width='100%'>
+		<tr><form id='simplesearch' name='simplesearch' method='post' action='/search/search-results.php'>
+			<td>
+				<a href='/'><img src='/images/empty.gif' width='230' height='25' border='0'></a>
+			</td>
+			<td align='right' valign='middle'>
+				<p class='medium_sans'><strong>SEARCH TEXTS</strong>
+				<input name='keywordlist' type='text' size='20' maxlength='255' class='plaininput'>
+				<input name='Search' type='submit' class='smallsearch' value='GO'>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td align='left' valign='middle' height='25' colspan='2' style='padding-left: 40px;'>
+				<p class='medium_sans'><strong><a href='/views/plays/plays.php'>Plays</a> &nbsp;<img src='/images/small_dingbat.gif' width='7' height='9' border='0' align='bottom' alt='+'>&nbsp;  
+				<a href='/views/sonnets/sonnets.php'>Sonnets</a> &nbsp;<img src='/images/small_dingbat.gif' width='7' height='9' border='0' align='bottom' alt='+'>&nbsp;
+				<a href='/views/poems/poems.php'>Poems</a> &nbsp;<img src='/images/small_dingbat.gif' width='7' height='9' border='0' align='bottom' alt='+'>&nbsp;
+				<a href='/concordance/'>Concordance</a> &nbsp;<img src='/images/small_dingbat.gif' border='0' width='7' height='9' align='bottom' alt='+'>&nbsp;
+				<a href='/search/search-advanced.php'>Advanced Search</a> &nbsp;<img src='/images/small_dingbat.gif' width='7' height='9' border='0' align='bottom' alt='+'>&nbsp;
+				<a href='/about'>About OSS</a></strong></p>
+			</td>
+		</tr>
+	</table></form>
+</div>
+<!-- begin masthead -->
+<div id='masthead' style='padding: 20px 0px 20px 0px;'>
+<img src="/images/oss-biglogo.gif" width="760" height="100" alt="Open Source Shakespeare: An Experiment in Literary Technology">
+</div>
+<!-- end masthead -->
+
+<!-- begin main section -->
+<div id='mainsection' style='background-color: #FEF3DE;'>
+
+<!-- begin contentcontainer -->
+<div id='contentcontainer' style='margin-right: 0px; border: 1px solid #FEF3DE;'>
+
+<!-- begin leftcolumn -->
+<div id='leftcolumn' style='width: 230px; padding: 10px 10px 10px 15px; position: absolute;'>
+	 <div style="text-align:center;">
+	 	  <p class="playtextsmall">
+
+				  <img src='/images/shakespeare-sepia.jpg' width='184' height='216' alt='William Shakespeare' border='0'><br>
+					  <em><strong>
+William Shakespeare<br>1564-1616</strong></em></span></b></p>
+			  </div>
+			  
+<p>Welcome to Open Source Shakespeare (OSS). Since it debuted in 2003, OSS has become one of the most popular Shakespeare sites 
+on the Internet. It is used regularly by scholars, educators, and Shakespeare lovers around the world.
+<ul>
+<li style="margin: 0px 0px 15px -15px;">Use the powerful <a href="/search/search-advanced.php">Advanced Search</a></li>
+<li style="margin: 0px 0px 15px -15px;">Look up individual words in the <a href="/concordance">Concordance</a> (index)</li>
+<li style="margin: 0px 0px 15px -15px;">View <a href="/statistics">statistics</a> about the plays and OSS</li>
+<li style="margin: 0px 0px 15px -15px;"><a href="/views/plays/characters/char_search.php">Search for characters</a> and see a <a href="/views/plays/characters/chardisplay.php">list of all characters</a></li>
+<li style="margin: 0px 0px 15px -15px;"><a href="/downloads">Download</a> the source code and database </li>
+<li style="margin: 0px 0px 15px -15px;">Learn about <a href="/info/about_the_texts.php">the Shakespeare edition</a> used by this site</li>
+<li style="margin: 0px 0px 15px -15px;">Read about <a href="/info/aboutsite.php">OSS's history</a> and how it was built</li>
+<li style="margin: 0px 0px 15px -15px;"><a href="/about/news.php">News</a> about changes to the site</li>         
+</ul>
+
+<!-- end leftcolumn -->
+</div>
+
+<!-- begin contentcolumn -->
+<div id='contentcolumn' style='margin-left: 260px; margin-right: 15px;'> 
+
+			<div class='smallbox'>
+			<form name="simplesearch" method="post" action="/search/search-results.php">
+			
+			<div class="searchboxtitle">
+        	<em>SEARCH THE COMPLETE WORKS</em>
+			</div>
+						
+			<div class='searchboxcontents'> 
+			 <input name="keywordlist" type="text" class="plaininput" style='font-size: 18px; padding: 5px; width:100%;'>
+			 	<div style="padding-left: 30px;">
+    			 	<p style="font-size: 18px;">
+                    <em>Search within</em></span><br>
+    	            <select name="works[0]" class="playtextsmall" style='font-size: 18px;'>
+                    	<option value="*" selected>ALL WORKS</option>
+                        					<option value='allswell'>All's Well That Ends Well</option>
+					<option value='antonycleo'>Antony and Cleopatra</option>
+					<option value='asyoulikeit'>As You Like It</option>
+					<option value='comedyerrors'>Comedy of Errors</option>
+					<option value='coriolanus'>Coriolanus</option>
+					<option value='cymbeline'>Cymbeline</option>
+					<option value='hamlet'>Hamlet</option>
+					<option value='henry4p1'>Henry IV, Part I</option>
+					<option value='henry4p2'>Henry IV, Part II</option>
+					<option value='henry5'>Henry V</option>
+					<option value='henry6p1'>Henry VI, Part I</option>
+					<option value='henry6p2'>Henry VI, Part II</option>
+					<option value='henry6p3'>Henry VI, Part III</option>
+					<option value='henry8'>Henry VIII</option>
+					<option value='juliuscaesar'>Julius Caesar</option>
+					<option value='kingjohn'>King John</option>
+					<option value='kinglear'>King Lear</option>
+					<option value='loveslabours'>Love's Labour's Lost</option>
+					<option value='loverscomplaint'>Lover's Complaint</option>
+					<option value='macbeth'>Macbeth</option>
+					<option value='measure'>Measure for Measure</option>
+					<option value='merchantvenice'>Merchant of Venice</option>
+					<option value='merrywives'>Merry Wives of Windsor</option>
+					<option value='midsummer'>Midsummer Night's Dream</option>
+					<option value='muchado'>Much Ado about Nothing</option>
+					<option value='othello'>Othello</option>
+					<option value='passionatepilgrim'>Passionate Pilgrim</option>
+					<option value='pericles'>Pericles</option>
+					<option value='phoenixturtle'>Phoenix and the Turtle</option>
+					<option value='rapelucrece'>Rape of Lucrece</option>
+					<option value='richard2'>Richard II</option>
+					<option value='richard3'>Richard III</option>
+					<option value='romeojuliet'>Romeo and Juliet</option>
+					<option value='sonnets'>Sonnets</option>
+					<option value='tamingshrew'>Taming of the Shrew</option>
+					<option value='tempest'>Tempest</option>
+					<option value='timonathens'>Timon of Athens</option>
+					<option value='titus'>Titus Andronicus</option>
+					<option value='troilus'>Troilus and Cressida</option>
+					<option value='12night'>Twelfth Night</option>
+					<option value='twogents'>Two Gentlemen of Verona</option>
+					<option value='venusadonis'>Venus and Adonis</option>
+					<option value='winterstale'>Winter's Tale</option>
+                    </select>
+    				<input name="searchtype" type="hidden" value="like">
+    				<input name="searchpage" type="hidden" value="simple">
+    				<input name="pleasewait" type="hidden" value="0">
+    				<input name="msg" type="hidden" value="sr">
+    				<input name="characters[]" type="hidden" value="*">
+    				<input name="genres[]" type="hidden" value="*">
+    				<input name="lowdate" type="hidden" value="1">
+    				<input name="highdate" type="hidden" value="9999">
+    				<input name="sortby" type="hidden" value="WorkName">
+    				<input name="displaytype" type="hidden" value="screen">
+    				<input type='submit' name='Submit' value='Search' class='searchbox_go'></p>
+    				<p>For more search options, try the<a href="search/search-advanced.php"><strong> advanced search</strong></a>.</p>
+				</div>
+			</div>
+		</div>
+</form>
+
+<p class='sidebarworks_header'><a href="/views/plays/plays.php">Plays</a></p>
+<ul>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=allswell'>All's Well That Ends Well</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=antonycleo'>Antony and Cleopatra</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=asyoulikeit'>As You Like It</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=comedyerrors'>Comedy of Errors</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=coriolanus'>Coriolanus</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=cymbeline'>Cymbeline</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=hamlet'>Hamlet</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry4p1'>Henry IV, Part I</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry4p2'>Henry IV, Part II</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry5'>Henry V</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry6p1'>Henry VI, Part I</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry6p2'>Henry VI, Part II</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry6p3'>Henry VI, Part III</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=henry8'>Henry VIII</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=juliuscaesar'>Julius Caesar</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=kingjohn'>King John</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=kinglear'>King Lear</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=loveslabours'>Love's Labour's Lost</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=macbeth'>Macbeth</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=measure'>Measure for Measure</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=merchantvenice'>Merchant of Venice</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=merrywives'>Merry Wives of Windsor</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=midsummer'>Midsummer Night's Dream</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=muchado'>Much Ado about Nothing</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=othello'>Othello</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=pericles'>Pericles</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=richard2'>Richard II</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=richard3'>Richard III</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=romeojuliet'>Romeo and Juliet</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=tamingshrew'>Taming of the Shrew</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=tempest'>Tempest</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=timonathens'>Timon of Athens</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=titus'>Titus Andronicus</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=troilus'>Troilus and Cressida</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=12night'>Twelfth Night</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=twogents'>Two Gentlemen of Verona</a></li>
+<li class='homeplaylist'><a href='/views/plays/playmenu.php?WorkID=winterstale'>Winter's Tale</a></li>
+</ul>
+
+<p class='sidebarworks_header' style='padding-top: 15px;'><a href="/views/sonnets/sonnets.php">Sonnets</a></p>
+<ul>
+	<li class='homeplaylist'><a href='/views/sonnets/sonnet_view.php?range=viewrange&sonnetrange1=1&sonnetrange2=17'>1-17</a></li>
+	<li class='homeplaylist'><a href='/views/sonnets/sonnet_view.php?range=viewrange&sonnetrange1=18&sonnetrange2=126'>18-126</a></li>
+	<li class='homeplaylist'><a href='/views/sonnets/sonnet_view.php?range=viewrange&sonnetrange1=127&sonnetrange2=154'>127-154</a></li>
+	<li class='homeplaylist'><a href='/views/sonnets/sonnet_view.php?range=viewrange&sonnetrange1=1&sonnetrange2=154'>All sonnets</a></li>
+</ul>
+
+<p class='sidebarworks_header' style='padding-top: 15px;'><a href="/views/poems/poems.php">Other poems</a></p>
+<ul>
+	<li class='homeplaylist'><a href='/views/poems/poem_view.php?WorkID=loverscomplaint'>Lover's Complaint</a></li>
+	<li class='homeplaylist'><a href='/views/poems/poem_view.php?WorkID=passionatepilgrim'>Passionate Pilgrim</a></li>
+	<li class='homeplaylist'><a href='/views/poems/poem_view.php?WorkID=phoenixturtle'>Phoenix and the Turtle</a></li>
+	<li class='homeplaylist'><a href='/views/poems/poem_view.php?WorkID=rapelucrece'>Rape of Lucrece</a></li>
+	<li class='homeplaylist'><a href='/views/poems/poem_view.php?WorkID=venusadonis'>Venus and Adonis</a></li>
+</ul>
+
+
+			<div class='smallbox' style='margin: 40px 0px 40px 0px;'>
+			<form name='getform' method='post' action='concordance/findform.php'>
+			<div class="searchboxtitle">
+			CONCORDANCE SEARCH
+			</div>
+				<div class='searchboxcontents'>
+					<input name='findword' type='text' class='plaininput' size='20' style='font-size: 18px; padding: 5px; width: 100%;'>
+					<p style="font-size: 18px;">
+                    <input name="searchpref" type="radio" class="whitebutton" value="exact" checked>
+                    <strong>Exact spelling</strong><br>
+                    <input name="searchpref" type="radio" class="whitebutton" value="first">
+                    <strong>First part</strong> of a word<br>
+                    <input type="radio" name="searchpref" class="whitebutton" value="any">
+                    <strong>Any part</strong> of a word</p>
+					<p>
+					<input type='submit' name='Submit' value='Search' class='searchbox_go' style="font-size: 16px;">
+					</p>
+				</div>
+			</div>
+</form>
+
+<!-- end contentcolumn -->
+</div>
+
+<!-- end contentcontainer -->
+</div>
+
+<!-- include footer -->
+   
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="4"> 
+<div id='footer' style='background-color: #FEF3DE;'><div style='text-align: center; background-color: #FEF3DE; padding: 0px 5px; 0px 5px;'>
+	 <a href='http://english.gmu.edu'><img src='/images/gmu_logo_oss_background.png' width='315' height='207'></a>
+	 <p style='font-size: 18px;'>Program code and database &copy; 2003-2024 <a href="http://english.gmu.edu/">George Mason University</a>.<br>
+	 All texts are in the public domain and can be used freely for any purpose.<br>
+	 <a href='/info/privacypolicy.php'>Privacy policy</a></p>
+</div>
+
+</div>    </td>
+  </tr>
+</table>
+</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-367134-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-Z3kjSUG3RU4PP"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-Z3kjSUG3RU4PP.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --></body>
+</html>
+
